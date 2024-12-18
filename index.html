@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="icon" href="https://via.placeholder.com/200">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>E_commerce</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+        <div class="container-fluid p-3">
+            <a class="navbar-brand" href="#">E_commerce</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./shop/shop.html" target="_blank" >Shop</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="categoriesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Categories
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="categoriesDropdown">
+                            <li><a class="dropdown-item" href="./categories/electronics.html">Electronics</a></li>
+                            <li><a class="dropdown-item" href="./categories/fashion.html">Fashion</a></li>
+                            <li><a class="dropdown-item" href="./categories/beauty&welness.html">Beauty & Wellness</a></li>
+                            <li><a class="dropdown-item" href="./categories/home&living.html">Home & Living</a></li>
+                            <li><a class="dropdown-item" href="./categories/books&media.html">Books & Media</a></li>
+                            <li><a class="dropdown-item" href="./categories/groceries.html">Groceries</a></li>
+                            <li><a class="dropdown-item" href="./categories/sports&outdoor.html">Sports & Outdoors</a></li>
+                            <li><a class="dropdown-item" href="./categories/toys&baby.html">Toys & Baby</a></li>
+                            <li><a class="dropdown-item" href="./categories/automotive.html">Automotive</a></li>
+                            <li><a class="dropdown-item" href="./categories/luxury.html">Luxury Items</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./deals/deals.html">Deals</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">New Arrival</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Best Sellers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Trending</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Wishlist</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Cart</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="accountDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            My Account
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="accountDropdown">
+                            <li><a class="dropdown-item" href="#">About Us</a></li>
+                            <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                            <li><a class="dropdown-item" href="#">FAQs</a></li>
+                            <li><a class="dropdown-item" href="#">Privacy Policy</a></li>
+                            <li><a class="dropdown-item" href="#">Terms & Conditions</a></li>
+                            <li><a class="dropdown-item" href="#">Shipping Information</a></li>
+                            <li><a class="dropdown-item" href="#">Careers</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <button class="btn p-2 my-lg-0 my-2">Sign In</button>
+            </div>
+        </div>
+    </nav>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light px-5 pb-2" id="second nav">
+      <div class="container-fluid p-3">
+          <!-- Brand Name -->
+          <a class="navbar-brand" href="#">search</a>
+          
+          <!-- Navbar Toggler for Mobile View -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Navbar Content -->
+          <div class="collapse navbar-collapse" id="navbarContent">
+              <!-- Navbar Links -->
+              
+              <!-- Search Box -->
+              <div class="navbar-search mx-auto pt-mg-3">
+                  <input class="form-control" type="search" placeholder="Search products, categories, etc." aria-label="Search">
+              </div>
+
+              <!-- Social Media Icons -->
+              <div class="social-icons d-flex">
+                  <a href="#" target="_blank"><img src="https://img.icons8.com/color/48/whatsapp.png" alt="WhatsApp"></a>
+                  <a href="#" target="_blank"><img src="https://img.icons8.com/color/48/facebook-new.png" alt="Facebook"></a>
+                  <a href="#" target="_blank"><img src="https://img.icons8.com/color/48/linkedin-circled.png" alt="LinkedIn"></a>
+                  <a href="#" target="_blank"><img src="https://img.icons8.com/color/48/phone.png" alt="Contact"></a>
+              </div>
+          </div>
+      </div>
+  </nav>
+
+    <!-- home -->
+
+    <section id="home" class="mx-auto">
+      <!-- Background Image -->
+      <img src="./image/front_page.jpg" alt="Front Page Image">
+      
+      <!-- Login Form -->
+      <div class="login-form">
+          <h3>Login</h3>
+          <form>
+              <div class="mb-3">
+                  <label for="email" class="form-label"></label>
+                  <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+              </div>
+              <div class="mb-3">
+                  <label for="password" class="form-label"></label>
+                  <input type="password" class="form-control" id="password" placeholder="Enter your password" required>
+              </div>
+              <button type="submit" class="btn">Login</button>
+              <div class="text-center mt-3">
+                  <a href="#">Forgot Password?</a> | <a href="#">Sign Up</a>
+              </div>
+          </form>
+      </div>
+  </section>
+
+
+  <!-- shop -->
+
+  
+</body>
+</html>
